@@ -6,7 +6,7 @@ package ExamenParicialIII;
 
 /**
  *
- * @author darwi
+ * @author darwin Guzman
  */
 public class MedicoDG extends PersonaDG
 {
