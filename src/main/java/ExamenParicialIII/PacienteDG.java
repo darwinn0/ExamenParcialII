@@ -10,31 +10,32 @@ package ExamenParicialIII;
  */
 public class PacienteDG extends PersonaDG
 {
-   private Integer NumeroHistorial;
-   private String Enfermedad;
+   private Integer NumeroHistorialDG;
+   private String EnfermedadDG;
 
-    public PacienteDG(Integer NumeroHistorial, String Enfermedad, String nombreDG, Integer edadDG, String direccionDG) {
+    public PacienteDG(Integer NumeroHistorialDG, String EnfermedadDG, String nombreDG, Integer edadDG, String direccionDG) {
         super(nombreDG, edadDG, direccionDG);
-        this.NumeroHistorial = NumeroHistorial;
-        this.Enfermedad = Enfermedad;
+        this.NumeroHistorialDG = NumeroHistorialDG;
+        this.EnfermedadDG = EnfermedadDG;
     }
 
-    public Integer getNumeroHistorial() {
-        return NumeroHistorial;
+    public Integer getNumeroHistorialDG() {
+        return NumeroHistorialDG;
     }
 
-    public void setNumeroHistorial(Integer NumeroHistorial) {
-        this.NumeroHistorial = NumeroHistorial;
+    public void setNumeroHistorialDG(Integer NumeroHistorialDG) {
+        this.NumeroHistorialDG = NumeroHistorialDG;
     }
 
-    public String getEnfermedad() {
-        return Enfermedad;
+    public String getEnfermedadDG() {
+        return EnfermedadDG;
     }
 
-    public void setEnfermedad(String Enfermedad) {
-        this.Enfermedad = Enfermedad;
+    public void setEnfermedadDG(String EnfermedadDG) {
+        this.EnfermedadDG = EnfermedadDG;
     }
-   
+
+    
     @Override
     public void mostrarInformacionDG()
     {
