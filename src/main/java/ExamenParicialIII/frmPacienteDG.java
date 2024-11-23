@@ -41,6 +41,7 @@ public class frmPacienteDG extends javax.swing.JFrame {
         btnAgregar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Registro de Pacientes ");
 
         jLabel1.setText("Registro de Pacientes");
 

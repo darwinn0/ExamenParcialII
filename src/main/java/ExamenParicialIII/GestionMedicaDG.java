@@ -11,4 +11,9 @@ package ExamenParicialIII;
 public class GestionMedicaDG 
 {
    
+    
+     public void mostrarInformacionDG()
+    {
+        
+    }
 }
