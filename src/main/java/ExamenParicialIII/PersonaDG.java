@@ -44,6 +44,7 @@ public class PersonaDG
         this.direccionDG = direccionDG;
     }
     
+    
     public void mostrarInformacionDG()
     {
         
